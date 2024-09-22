@@ -1,0 +1,30 @@
+.play-button{
+    height: 40px;
+    width: 120px;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    position: relative;
+    left: 200px;
+    cursor: pointer;
+}
+.reset{
+    height: 40px;
+    width: 120px;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    position: relative;
+   
+    cursor: pointer;
+}
+.rules{
+    height: 40px;
+    width: 120px;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    position: relative;
+   
+    cursor: pointer;
+}

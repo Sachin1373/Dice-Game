@@ -1,0 +1,30 @@
+.select{
+    display: flex;
+    gap: 10px;
+    
+}
+.numbers{
+    list-style: none;
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+    padding-top: 5px;
+    cursor: pointer;
+}
+.SelectedNumber p{
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: right;
+}
+.numbers.selected{
+    background-color: black;
+    color: white;
+
+}

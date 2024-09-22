@@ -1,0 +1,14 @@
+.role_dice{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    width: 350px;
+    height: 450px;
+   
+}
+.role_dice img{
+    height: 180px;
+    width: 180px;
+    cursor: pointer;
+}

@@ -1,0 +1,11 @@
+.upper-part{
+    display: flex;
+    justify-content: space-between;
+}
+.select-number{
+    margin: 35px 80px;
+}
+.Role{
+    position: relative;
+    left: 39%;
+}
