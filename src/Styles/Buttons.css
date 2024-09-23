@@ -15,7 +15,7 @@
     color: white;
     font-weight: 600;
     position: relative;
-   
+    left: 270px;
     cursor: pointer;
 }
 .rules{
@@ -25,6 +25,6 @@
     color: white;
     font-weight: 600;
     position: relative;
-   
+    left: 270px;
     cursor: pointer;
 }

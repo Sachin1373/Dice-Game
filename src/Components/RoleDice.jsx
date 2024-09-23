@@ -1,8 +1,9 @@
 import React, { useState } from 'react'
 import '../Styles/Role_dice.css'
-import Buttons  from '../Components/Buttons'
 
-function RoleDice({Reset,Rules,setScore,selectednumber,random,SetRandomNumber}) {
+
+
+function RoleDice({setScore,selectednumber,random,SetRandomNumber}) {
      
      
     function randomnumber(){
@@ -25,8 +26,7 @@ function RoleDice({Reset,Rules,setScore,selectednumber,random,SetRandomNumber}) 
         <img src={`../../dice_${random}.png`}  onClick={randomnumber}/>
         <p>Dice Number :  {random}</p>
         <p>Click on Dice to roll</p>
-        <Buttons name="Reset Score" className='reset' onClick={Reset}/>
-        <Buttons name="Show Rules" className='rules' onClick={Rules} />
+        
     </div>
   )
 }
